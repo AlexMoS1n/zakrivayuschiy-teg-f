@@ -12,3 +12,29 @@
 
 Кроме этого, не меняйте HTML переключателя тем. Его разметка также гарантирует работу своего скрипта.
 */
+@keyframes move-arrow {
+  from {
+    inset-inline-start: -20px;
+  }
+  to {
+    inset-inline-start: -16px;
+  }
+}
+
+@keyframes raising-heart {
+  from {
+    scale: 1;
+  }
+  to {
+    scale: 1.5;
+  }
+}
+
+@keyframes emergence-sparks {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

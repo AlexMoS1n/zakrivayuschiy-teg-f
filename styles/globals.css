@@ -30,6 +30,13 @@ a {
   color: inherit;
 }
 
+button {
+  display: block;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+}
+
 button,
 input {
   color: currentColor;

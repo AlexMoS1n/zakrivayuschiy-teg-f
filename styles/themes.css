@@ -5,35 +5,32 @@
 ✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
 */
 :root.theme-light {
-  --main-font-family: Inter;
-  --accent-font-family: PressStart2P;
-  --main-font-wdht: 400;
-  --article-headers-font-wdht: 700;
+  --article-headers-font-wght: 700;
+  --article-font-wght: var(--main-font-weight);
   --main-bg-color: #FFFFFF;
   --accent-color: #000000;
+  --hover-content-button-bg-color: var(--main-bg-color);
   --main-bg-repeating-linear-gradient: #d3d3d3;
   --main-bg-linear-gradient: #e7e7e7 0.01%, #1a1a1a;
 }
 
 :root.theme-dark {
-  --main-font-family: Inter;
-  --accent-font-family: PressStart2P;
-  --main-font-wdht: 400;
-  --article-headers-font-wdht: 700;
+  --article-headers-font-wght: 785;
+  --article-font-wght: 465;
   --main-bg-color: #000000;
   --accent-color: #00CC14;
+  --hover-content-button-bg-color: var(--accent-color);
   --main-bg-repeating-linear-gradient: var(--main-bg-color);
   --main-bg-linear-gradient: #007f0c, #004306;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --main-font-family: Inter;
-    --accent-font-family: PressStart2P;
-    --main-font-wdht: 400;
-    --article-headers-font-wdht: 700;
+    --article-headers-font-wght: 785;
+    --article-font-wght: 465;
     --main-bg-color: #000000;
     --accent-color: #00CC14;
+    --hover-content-button-bg-color: var(--accent-color);
     --main-bg-repeating-linear-gradient: var(--main-bg-color);
     --main-bg-linear-gradient: #007f0c, #004306;
   }
