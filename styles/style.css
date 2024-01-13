@@ -162,32 +162,36 @@
   border-block: 2px solid currentColor;
 }
 
-.filter-grayscale {
-  filter: grayscale(0.7);
-}
-
 .filter-saturate {
-  filter: saturate(4);
-}
-
-.filter-hue-rotate {
-  filter: hue-rotate(30deg);
+  filter: saturate(2);
 }
 
 .filter-invert {
-  filter: invert(0.8);
+  filter: invert(0.2);
 }
 
-.filter-sepia {
-  filter: sepia(0.8);
+.filter-grayscale {
+  filter: grayscale(1);
+}
+
+.filter-hue-rotate {
+  filter: hue-rotate(10deg);
+}
+
+.filter-brightness {
+  filter: brightness(1.2);
 }
 
 .filter-blur {
-  filter: blur(1rem);
+  filter: blur(0.1rem);
+}
+
+.filter-sepia {
+  filter: sepia(1);
 }
 
 .multi-filter {
-  filter: hue-rotate(90deg) contrast(0.5) blur(0.05rem);
+  filter: saturate(1.4) brightness(1.2) ;
 }
 
 .post__wrapper__img-label {
