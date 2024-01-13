@@ -17,4 +17,5 @@
   --color-stroke-img-label: var(--main-bg-color);
   --inset-inline-end-img-label: clamp(11px, 0.3794rem + 1.3146vw, 25px);
   --heart-sparks-color: #FF0000;
+  --bg-color-pop-up_backdrop: #000000;
 }
