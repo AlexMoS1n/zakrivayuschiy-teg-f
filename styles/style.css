@@ -162,6 +162,34 @@
   border-block: 2px solid currentColor;
 }
 
+.filter-grayscale {
+  filter: grayscale(0.7);
+}
+
+.filter-saturate {
+  filter: saturate(4);
+}
+
+.filter-hue-rotate {
+  filter: hue-rotate(30deg);
+}
+
+.filter-invert {
+  filter: invert(0.8);
+}
+
+.filter-sepia {
+  filter: sepia(0.8);
+}
+
+.filter-blur {
+  filter: blur(1rem);
+}
+
+.multi-filter {
+  filter: hue-rotate(90deg) contrast(0.5) blur(0.05rem);
+}
+
 .post__wrapper__img-label {
   position: absolute;
   inset-inline-end: var(--inset-inline-end-img-label);
@@ -361,7 +389,7 @@
 }
 
 .floppy-icon {
-  inline-size: calc((100% + 4px) * (-0.2414) + 101.862px);
+  inline-size: calc((100% + 4px) * (-0.2414) + 101.862px); /* Т.к. мы знаем конечную ширину кнопки 100% при разных разрешениях 375px и 1440px (305px и 335px, за вычетом границы) и ширину иконки (28px и 21px), то можем составить уравнение с двумя переменными: 335x-y-21=306x-y-28 и найти переменные x (-0.2414) и y (-101.869) */
   aspect-ratio: 1/1;
 }
 
