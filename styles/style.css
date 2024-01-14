@@ -177,7 +177,7 @@
 }
 
 .filter-hue-rotate {
-  filter: hue-rotate(10deg);
+  filter: hue-rotate(20deg);
 }
 
 .filter-brightness {
