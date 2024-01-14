@@ -246,6 +246,22 @@
   margin: 25px 25px 23px;
 }
 
+.card__icon-button {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: 2px solid transparent;
+  transition: border-color 0.3s ease;
+}
+
+.card__icon-button:focus {
+  outline: none;
+}
+
+.card__icon-button:focus-visible {
+  border-color: currentColor;
+}
+
 .card__like-button {
   min-inline-size: 130px;
   padding-block: 7px;
@@ -288,7 +304,7 @@
 
 .button__text {
   position: relative;
-  color: inherit;
+  color: var(--accent-color);
   font-family: var(--main-font-family, sans-serif);
   font-size: 14px;
   font-weight: inherit;
@@ -325,12 +341,13 @@
   inline-size: clamp(341px, 21.0484rem + 1.1268vw, 353px);
   padding-block: 30px;
   background-color: var(--main-bg-color);
+  color: var(--accent-color);
+  border: 2px solid currentColor; /* Извините за невнимательность =))) */
 }
 
 .pop-up::backdrop {
   background-color: var(--bg-color-pop-up_backdrop, #000);
   opacity: 0.75;
-  color: var(--accent-color);
 }
 
 .pop-up__content {
@@ -348,7 +365,7 @@
 }
 
 .pop-up__content__text {
-  color: var(--accent-color, #000);
+  color: var(--accent-color);
   font-family: var(--main-font-family);
   font-size: 14px;
   font-weight: var(--main-font-weight);

@@ -16,22 +16,6 @@
 
 /* Скинул все анимации по кнопке "сердечко", как написано в задании */
 
-.card__icon-button {
-  display: flex;
-  align-items: center;
-  background-color: transparent;
-  border: 2px solid transparent;
-  transition: border-color 0.3s ease;
-}
-
-.card__icon-button:focus {
-  outline: none;
-}
-
-.card__icon-button:focus-visible {
-  border-color: currentColor;
-}
-
 .sparks {
   opacity: 0;
 }
