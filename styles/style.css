@@ -68,7 +68,7 @@
   color: inherit;
   font-family: inherit;
   font-size: var(--header-title-font-size);
-  font-weight: inherit; /* В фигме в обеих темах стоит вес 400, как и у меня https://monosnap.com/file/zyeJuyk5UWZ6vgF8Pwhh09gV36qC0Q , https://monosnap.com/file/SYgwykIB7VNErKYX4AezCDx0t2j7Te , https://www.figma.com/file/JQhPLs2COLIeZtAtlsBS34/%238-%3C%2F%D0%B7%D0%B0%D0%BA%D1%80%D1%8B%D0%B2%D0%B0%D1%8E%D1%89%D0%B8%D0%B9-%D1%82%D0%B5%D0%B3%3E?node-id=801%3A394&mode=dev . Не совсем понял замечание */
+  font-weight: var(--main-font-weight, 400); /* В фигме в обеих темах стоит вес 400, как и у меня https://monosnap.com/file/zyeJuyk5UWZ6vgF8Pwhh09gV36qC0Q , https://monosnap.com/file/SYgwykIB7VNErKYX4AezCDx0t2j7Te , https://www.figma.com/file/JQhPLs2COLIeZtAtlsBS34/%238-%3C%2F%D0%B7%D0%B0%D0%BA%D1%80%D1%8B%D0%B2%D0%B0%D1%8E%D1%89%D0%B8%D0%B9-%D1%82%D0%B5%D0%B3%3E?node-id=801%3A394&mode=dev . Не совсем понял замечание */
   line-height: inherit;
   text-transform: uppercase;
 }
