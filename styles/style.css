@@ -243,7 +243,7 @@
   justify-content: flex-end;
   align-items: center;
   gap: 4px;
-  margin: 25px 25px 24px;
+  margin: 26px 25px 25px;
 }
 
 .card__icon-button {
@@ -252,6 +252,7 @@
   background-color: transparent;
   border: 2px solid transparent;
   transition: border-color 0.3s ease;
+  max-block-size: 38px;
 }
 
 .card__icon-button:focus {
