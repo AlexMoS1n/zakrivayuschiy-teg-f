@@ -16,6 +16,7 @@
   --header-title-font-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
   --color-stroke-img-label: var(--main-bg-color);
   --inset-inline-end-img-label: clamp(11px, 0.3794rem + 1.3146vw, 25px);
+  --inset-inline-block-img-label: clamp(23px, 1.3935rem + 0.1878vw, 25px);
   --heart-sparks-color: #FF0000;
   --bg-color-pop-up_backdrop: #000000;
 }

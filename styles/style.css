@@ -198,7 +198,7 @@
 .post__wrapper__img-label {
   position: absolute;
   inset-inline-end: var(--inset-inline-end-img-label);
-  inset-block-start: 27px;
+  inset-block-start: var(--inset-inline-block-img-label);
   color: inherit;
   font-family: var(--main-font-family, sans-serif);
   font-size: 14px;
