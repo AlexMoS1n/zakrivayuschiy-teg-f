@@ -247,8 +247,6 @@
 }
 
 .card__icon-button {
-  display: flex;
-  align-items: center;
   background-color: transparent;
   border: 2px solid transparent;
   transition: border-color 0.3s ease;
