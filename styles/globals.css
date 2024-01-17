@@ -58,3 +58,9 @@ ol {
   clip-path: inset(50%);
   white-space: nowrap;
 }
+
+img {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
