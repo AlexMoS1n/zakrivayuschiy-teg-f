@@ -4,7 +4,7 @@
   --article-font-family: Inter;
   --main-font-weight: 400;
   --article-headers-font-wght: 700;
-  --article-font-wght: var(--main-font-weight);
+  --article-font-settings: 'wght' 400;
   --main-bg-color: #FFFFFF;
   --accent-color: #000000;
   --hover-content-button-bg-color: var(--main-bg-color);
@@ -19,4 +19,8 @@
   --inset-inline-block-img-label: clamp(23px, 1.3935rem + 0.1878vw, 25px);
   --heart-sparks-color: #FF0000;
   --bg-color-pop-up_backdrop: #000000;
+  --corrective-pad-inl-end-1sprint-empty: 25px;
+  --corrective-pad-inl-end-1sprint-question: 25px;
+  --corrective-pad-inl-end-2sprint-ideal: 25px;
+  --corrective-pad-inl-end-4sprint: 25px;
 }

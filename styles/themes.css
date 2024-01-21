@@ -6,32 +6,44 @@
 */
 :root.theme-light {
   --article-headers-font-wght: 700;
-  --article-font-wght: var(--main-font-weight);
+  --article-font-settings: 'wght' 400;
   --main-bg-color: #FFFFFF;
   --accent-color: #000000;
   --hover-content-button-bg-color: var(--main-bg-color);
   --main-bg-repeating-linear-gradient: #d3d3d3;
   --main-bg-linear-gradient: #e7e7e7 0.01%, #1a1a1a;
+  --corrective-pad-inl-end-1sprint-empty: 25px;
+  --corrective-pad-inl-end-1sprint-question: 25px;
+  --corrective-pad-inl-end-2sprint-ideal: 25px;
+  --corrective-pad-inl-end-4sprint: 25px;
 }
 
 :root.theme-dark {
   --article-headers-font-wght: 785;
-  --article-font-wght: 465;
+  --article-font-settings: 'wght' 465, 'slnt' 0;
   --main-bg-color: #000000;
   --accent-color: #00CC14;
   --hover-content-button-bg-color: var(--accent-color);
   --main-bg-repeating-linear-gradient: var(--main-bg-color);
   --main-bg-linear-gradient: #007f0c, #004306;
+  --corrective-pad-inl-end-1sprint-empty: 26px;
+  --corrective-pad-inl-end-1sprint-question: 29px;
+  --corrective-pad-inl-end-2sprint-ideal: 28px;
+  --corrective-pad-inl-end-4sprint: 26px;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --article-headers-font-wght: 785;
-    --article-font-wght: 465;
+    --article-font-settings: 'wght' 465, 'slnt' 0;
     --main-bg-color: #000000;
     --accent-color: #00CC14;
     --hover-content-button-bg-color: var(--accent-color);
     --main-bg-repeating-linear-gradient: var(--main-bg-color);
     --main-bg-linear-gradient: #007f0c, #004306;
+    --corrective-pad-inl-end-1sprint-empty: 26px;
+    --corrective-pad-inl-end-1sprint-question: 29px;
+    --corrective-pad-inl-end-2sprint-ideal: 28px;
+    --corrective-pad-inl-end-4sprint: 26px;
   }
 }

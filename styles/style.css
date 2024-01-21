@@ -222,11 +222,26 @@
 .post__text {
   color: inherit;
   font-family: var(--article-font-family, sans-serif);
-  font-variation-settings: "wght" var(--article-font-wght);
+  font-variation-settings: var(--article-font-settings);
   font-size: 18px;
-  font-weight: 400;
   line-height: 21px;
   padding-inline: 25px;
+}
+
+.corrective-1spr-empty {
+  padding-inline-end: var(--corrective-pad-inl-end-1sprint-empty);
+}
+
+.corrective-1spr-question {
+  padding-inline-end: var(--corrective-pad-inl-end-1sprint-question);
+}
+
+.corrective-2spr-ideal {
+  padding-inline-end: var(--corrective-pad-inl-end-2sprint-ideal);
+}
+
+.corrective-4spr {
+  padding-inline-end: var(--corrective-pad-inl-end-4sprint);
 }
 
 .сorrection-min-width {
